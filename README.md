@@ -85,6 +85,7 @@ Fig : Picture of dumper recognition to microcontroller
 
 
 5. Import the program which is ‘.hex’ file from the saved location by selecting File option and clicking on ‘Import Hex’ as shown in below window.
+
 ![image](https://github.com/harikrishna1909/MONITORING-OF-AC-MOTOR-USING-IOT/assets/134721651/efe54f93-461e-4cc3-9c75-2e9ccf17d231)
 
 Fig : Picture of program importing into the microcontroller
