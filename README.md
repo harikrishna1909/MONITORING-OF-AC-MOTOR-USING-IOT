@@ -1,4 +1,4 @@
-##The main blocks of this project are:
+## The main blocks of this project are:
 1. Regulated power supply.
 2. PIC Microcontroller.
 3. ESP8266 Wi-Fi module. 
@@ -12,12 +12,12 @@
 11. Buzzer with driver. 
 12. LCD display.
 
-###SOFTWARE DESCRIPTION
+### SOFTWARE DESCRIPTION
 This project is implemented using following software’s:
 Express PCB – for designing circuit
 PIC C compiler - for compilation part
 
-###COMPILATION AND SIMULATION STEPS:
+### COMPILATION AND SIMULATION STEPS:
 For PIC microcontroller, PIC C compiler is used for compilation. The compilation steps are as follows:
 1.Open PIC C compiler.
 2.You will be prompted to choose a name for the new project, so create a separate folder where all the files of your project will be stored, choose a name and click save.
@@ -38,6 +38,7 @@ Fig : Picture of compiling a new file using PIC C compiler
 Fig : Picture of compiling a project.c file using PIC C compiler
 
 5.You can then start to write the source code in the window titled 'project.c' then before testing your source code; you have to compile your source code, and correct eventual syntax errors. 
+
 ![image](https://github.com/harikrishna1909/MONITORING-OF-AC-MOTOR-USING-IOT/assets/134721651/4153e7ec-d71e-4ee3-8b8b-78d894496c7a)
 
 Fig : Picture of checking errors and warnings using PIC C compiler
@@ -58,7 +59,7 @@ After compilation, next step is simulation. Here first circuit is designed in Ex
 
 
 
-## DUMPING STEPS:
+### DUMPING STEPS:
 The steps involved in dumping the program edited in proteus 7 to microcontroller are shown below:
 1.Initially before connecting the program dumper to the microcontroller kit the window is appeared as shown below.               
 
@@ -95,8 +96,7 @@ Fig : Picture of program importing into the microcontroller
 Fig : Picture after program dumped into the microcontroller
 
 
-###RESULTS
-#RESULT
+### RESULTS
 The main controlling device of the whole system is a Microcontroller. AC motor through Voltage sensor, current sensor, temperature sensor and frequency counter are interfaced to Microcontroller. The Microcontroller gets input from all the sensors, which will be processed and transmitted into to the thingspeak cloud over WI-FI module. The parameters are displayed on the mobile phone. The system alerts through BUZZER, if any abnormality is detected in the parameter values. To perform the task, Microcontroller is loaded with an intelligent program written in embedded ‘C’ language. The Microcontroller is programmed using Embedded C language.
 
 ![image](https://github.com/harikrishna1909/MONITORING-OF-AC-MOTOR-USING-IOT/assets/134721651/0b695ac2-204b-4f50-b8f8-2be8fbaf0d2b)
